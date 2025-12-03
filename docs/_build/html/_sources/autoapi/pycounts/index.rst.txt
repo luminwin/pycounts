@@ -1,0 +1,55 @@
+pycounts
+========
+
+.. py:module:: pycounts
+
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 1
+
+   /autoapi/pycounts/plotting/index
+   /autoapi/pycounts/pycounts/index
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   pycounts.__version__
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   pycounts.count_words
+
+
+Package Contents
+----------------
+
+.. py:function:: count_words(input_file)
+
+   Count words in a text file.
+
+   Words are made lowercase and punctuation is removed
+   before counting.
+
+   :param input_file: Path to text file.
+   :type input_file: str
+
+   :returns: dict-like object where keys are words and values are counts.
+   :rtype: collections.Counter
+
+   .. rubric:: Examples
+
+   >>> count_words("text.txt")
+
+
+.. py:data:: __version__
+
