@@ -1,6 +1,7 @@
 # pycounts
 
 Calculate word counts in a text file!
+https://luminwin.github.io/pycounts
 
 ## Installation
 
