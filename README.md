@@ -6,7 +6,7 @@ https://luminwin.github.io/pycounts
 ## Installation
 
 ```bash
-pip install pycounts
+pip install git+https://github.com/luminwin/pycounts.git
 ```
 
 ## Usage
